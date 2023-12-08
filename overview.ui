@@ -47,7 +47,7 @@
      <property name="title">
       <string>Kho</string>
      </property>
-     <addaction name="actionNh_p_kho"/>
+     <addaction name="action_import_goods"/>
      <addaction name="actionXu_t_kho"/>
      <addaction name="action_i_u_chuy_n"/>
     </widget>
@@ -55,14 +55,15 @@
      <property name="title">
       <string>Sản phẩm</string>
      </property>
-     <addaction name="actionTh_m_s_n_ph_m"/>
+     <addaction name="action_add_product"/>
+     <addaction name="action_add_category"/>
     </widget>
     <widget class="QMenu" name="menu_i_t_c">
      <property name="title">
       <string>Đối tác</string>
      </property>
      <addaction name="action_i_l"/>
-     <addaction name="actionNh_cung_c_p"/>
+     <addaction name="action_supplier"/>
     </widget>
     <addaction name="menu_User"/>
     <addaction name="menuKho"/>
@@ -99,7 +100,7 @@
     <string>Phần quyền</string>
    </property>
   </action>
-  <action name="actionNh_p_kho">
+  <action name="action_import_goods">
    <property name="text">
     <string>Nhập kho</string>
    </property>
@@ -114,7 +115,7 @@
     <string>Điều chuyển</string>
    </property>
   </action>
-  <action name="actionTh_m_s_n_ph_m">
+  <action name="action_add_product">
    <property name="text">
     <string>Thêm sản phẩm</string>
    </property>
@@ -124,7 +125,7 @@
     <string>Đại lý</string>
    </property>
   </action>
-  <action name="actionNh_cung_c_p">
+  <action name="action_supplier">
    <property name="text">
     <string>Nhà cung cấp</string>
    </property>
@@ -132,6 +133,11 @@
   <action name="actionSetPermission">
    <property name="text">
     <string>Phân quyền</string>
+   </property>
+  </action>
+  <action name="action_add_category">
+   <property name="text">
+    <string>Thêm danh mục</string>
    </property>
   </action>
  </widget>

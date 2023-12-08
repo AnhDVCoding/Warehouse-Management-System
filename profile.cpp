@@ -12,3 +12,9 @@ profile::~profile()
 {
     delete ui;
 }
+
+void profile::on_pb_save_clicked()
+{
+
+}
+

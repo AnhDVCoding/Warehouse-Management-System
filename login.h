@@ -3,6 +3,10 @@
 
 #include <QDialog>
 #include "overview.h"
+#include <QtSql>
+#include <QtDebug>
+#include <QFileInfo>
+#include <QSqlQueryModel>
 
 namespace Ui {
 class login;
